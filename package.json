@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "enmity-installer",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Installer for Enmity's Discord client modification.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/sirtenzin/enmity-installer",
   "keywords": [
     "Electron",
     "quick",
@@ -14,7 +14,7 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "SirTenzin, Enmity",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^21.1.0"

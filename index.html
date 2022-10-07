@@ -1,19 +1,35 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
-    <link href="./styles.css" rel="stylesheet">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5451C1">
 
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
+  <title>Enmity</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="https://enmity.app/assets/favicon.png">
+  <link rel="apple-touch-icon" sizes="128x128" href="assets/favicon.png">
+  <link href="https://enmity.app/assets/style.css" rel="stylesheet" type="text/css">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <nav>
+    <button class="mdc-button mdc-button--raised">
+      <span class="mdc-button__label">Install Now</span>
+    </button>
+  </nav>
+
+  <main>
+    <div class="logo-container">
+      <img src="https://enmity.app/assets/icon.png">
+    </div>
+
+    <div class="text-container">
+      <h2>Enmity</h2>
+      <p>The power of addons, all in your hand. Install now</p>
+    </div>
+  </main>
   </body>
 </html>
